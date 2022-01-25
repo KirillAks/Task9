@@ -16,9 +16,9 @@ namespace Task9
             {
                 Console.WriteLine("Вас приветствует калькулятор!");
                 Console.WriteLine("Введите целое число X =");
-                int x = Convert.ToInt32(Console.ReadLine());
+                double x = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Введите целое число Y =");
-                int y = Convert.ToInt32(Console.ReadLine());
+                double y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Введите код операции:\n 1 - сложение \n 2 - вычитание \n 3 - умножение \n 4 - частное ");
                 Console.WriteLine("Ваш выбор:");
                 int calculator = Convert.ToInt32(Console.ReadLine());
